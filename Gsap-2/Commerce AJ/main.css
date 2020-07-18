@@ -1,0 +1,445 @@
+
+  /*Nav-Bar*/
+  strong {
+    color: white;
+  }
+  .nav-bar a {
+    color:white; 
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 100;
+  }
+  .nav-bar a:hover{
+color: #867979;
+transition: color.9s ease-in-out;
+
+  }
+  
+  .nav-bar {
+    overflow: none;
+    text-align: center;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 60px;
+    list-style: none;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  }
+  
+  
+  /*---------------------------------------------------------------------------------------------*/
+  
+  /*Images*/
+  
+  .items ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 70px;
+  }
+  
+  /*Box shadow*/
+  .items img {
+    margin-bottom: 20px;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: solid 2px #867979 ;
+padding: 40px;
+-webkit-box-shadow: 1px 8px 5px 3px rgba(134,121,121,0.79);
+-moz-box-shadow: 1px 8px 5px 3px rgba(134,121,121,0.79);
+box-shadow: 1px 8px 5px 3px rgba(134,121,121,0.79);
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+
+  .items ul span{
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  
+  /*Items text*/
+  
+  #Head {
+   opacity: 0; 
+    position: relative;
+    color: white;
+    right: 145px;
+    top: 308px;
+    font-size: 22px;
+  
+  }
+
+  #Head:hover{
+opacity: 1;
+transition: all.7s ease-in-out;
+  }
+  
+  #G-mic {
+  opacity: 0;
+    position: relative;
+    top: 360px;
+    left: -127px;
+    color: white;
+    font-size: 22px;
+  }
+
+ #G-mic:hover{
+opacity: 1;
+transition: all.7s ease-in-out;
+ } 
+
+
+  #G-chair {
+   opacity: 0;
+    position: relative;
+    top: 311px;
+    right: 125px;
+    color: white;
+    font-size: 22px;
+  }
+  
+  #G-chair:hover{
+    opacity: 1;
+    transition: all.7s ease-in-out;
+  }
+
+
+  #PC {
+   opacity: 0;
+    position: relative;
+    right: 140px;
+    top: 317px;
+    color: white;
+    font-size: 22px;
+  }
+  
+  #PC:hover{
+    opacity: 1;
+transition: all.7s ease-in-out;
+  }
+
+
+  #VR {
+    opacity: 0;
+    position: relative;
+    right: 118px;
+    top: 310px;
+    color: white;
+    font-size: 22px;
+  }
+  
+  #VR:hover{
+    opacity: 1;
+transition: all.7s ease-in-out;
+  }
+
+
+  #PS4 {
+    opacity: 0;
+    position: relative;
+    top: 309px;
+    right: 138px;
+    color: white;
+    font-size: 22px;
+  }
+  
+  #PS4:hover{
+    opacity: 1;
+    transition: all.7s ease-in-out;
+  }
+
+
+  #Head2 {
+   opacity: 0;
+    position: relative;
+    top: 309px;
+    right: 121px;
+    color: white;
+    font-size: 22px;
+  }
+  
+  #Head2:hover{
+    opacity: 1;
+    transition: all.7s ease-in-out;
+  }
+
+
+  #Mouse {
+   opacity: 0;
+    position: relative;
+    right: 135px;
+    top: 306px;
+    color: white;
+    font-size: 22px;
+  }
+  
+  #Mouse:hover{
+    opacity: 1;
+transition: all.7s ease-in-out;
+  }
+
+  #Speaker {
+    opacity: 0;
+    position: relative;
+    top: 311px;
+    right: 130px;
+    bottom: 20px;
+    color: white;
+    font-size: 22px;
+  }
+  
+#Speaker:hover{
+  opacity: 1;
+transition: all.7s ease-in-out;
+}
+
+  #RacingWheel {
+    opacity: 0;
+    position: relative;
+    top: 310px;
+    right: 137px;
+    color: white;
+    font-size: 22px;
+  }
+
+  #RacingWheel:hover{
+    opacity: 1;
+transition: all.7s ease-in-out;
+  }
+
+  /*---------------------------------------------------------------------------------------------*/
+  
+  /*Images*/
+  #Gaming-pc {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #Chair {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #Mic {
+    position: relative;
+    top: 50px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #HD-headset {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #VR-headset {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #Gaming-Mouse {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #PS4-Gaming-Concroller {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #Gaming-Head2 {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #Gaming-Speaker {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #Gaming-Racing-Wheel {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #img {
+    width: 100%;
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  
+  /*Hover*/
+  strong:hover {
+    color: yellow;
+    transition: color.8s ease-in-out;
+  }
+  
+  .items span:hover {
+    color: yellow;
+    transition: color.8s ease-in-out;
+  }
+  
+  a:hover {
+    color: yellow;
+    transition: color.3s ease-in-out;
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  
+  /*Footer*/
+  .footer a {
+    position: relative;
+    color: white;
+    top: 2px;
+    text-align: center;
+  
+    text-align: center;
+    text-decoration: none;
+  }
+  .footer  a:hover{
+color: #867979;
+transition: color.9s ease-in-out;
+  }
+  .footer {
+    position: relative;
+    margin-top: 275px;
+    padding: 120px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+   
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  #many{
+    position: relative;
+    font-size: 20px;
+    
+  }
+  #more{
+position: relative;
+font-size: 20px;
+font-weight: 100;
+
+  }
+  #maybe{
+    position: relative;
+    font-size: 20px;
+    font-weight: 100;
+
+  }
+  #red{
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-size: 24px;
+    top: 10px;
+    left: 10px;
+  }
+  #white{
+    position: relative; 
+    font-size: 24px;
+    left: 100px;
+
+  }
+  #blue{
+    position: relative;
+     font-size: 24px;
+     
+
+  }
+  #green{
+position: relative;
+font-size: 24px;
+left: 200px;
+  }
+  #hi{
+    position: relative;
+  }
+  #picks{
+    position: relative;
+  }
+  #face{
+    position: relative;
+  }
+  #locked{
+    position: relative;
+  }
+  strong{
+    position: relative;
+    font-size: 26px;
+    font-weight: 100;
+    color: white;
+    
+  }
+
+   #red:hover{
+    color: yellow;
+    transition: color.9s ease-in-out;
+  }
+
+
+   i{
+    color: white;
+    font-size: 70px;
+    }
+
+    .footer i:hover{
+color:#867979;
+transition: color.9s ease-in-out;    
+}
+
+  #buy{
+    position: relative;
+     left: 350px;
+     bottom: 117px;
+    font-size: 40px;
+    font-weight: 100;
+  }
+  #buy:hover{
+    color: yellow;
+    transition: color.7s ease-in-out;
+  }
+  #privacy{
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+    font-weight: 100;
+  }
+  #call{
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+    font-weight: 100;
+  }
+  #pay{
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+    font-weight: 100;
+  }
+  #card{
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+    font-weight: 100;
+    left: 140px;
+  }

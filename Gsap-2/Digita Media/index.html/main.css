@@ -1,0 +1,717 @@
+
+html{
+   width: 100%;
+   height: 100%;
+   padding: 0;
+   margin: 0;
+   
+}
+
+
+
+
+
+
+
+
+i{
+position: relative;
+right: 200px;
+font-size: 50px;
+}
+
+.Header a{
+position: relative;
+margin: 50px;
+bottom: 5px;
+left: 270px;
+color:white;
+font-size: 25px;
+text-align: center;
+text-decoration: none;
+}
+
+.Header{
+   position: relative;
+   bottom: 9px;
+   right: 7px;
+   width: 100%;
+   text-align: center;
+   padding: 0px;
+   color:white;
+   background-color:darkviolet;
+}
+.Header i:hover{
+color:#51d0de; 
+    transition: all .9s ease-in-out;
+}
+#face{
+font-size: 30px;
+position: relative;
+right: 320px;
+}
+#twitch{
+    font-size: 30px;
+    position: relative;
+    left: -150px;
+    
+}
+#insta{
+    position: relative;
+    right: 30px;
+    font-size: 30px;
+}
+#twitter{
+    position: relative;
+    left: 200px;
+    font-size: 30px;
+}
+#you{
+   font-size: 30px;
+}
+/*  
+.Slider{
+    
+display:grid;
+grid-template-areas:  
+'Slider Stream  Stream Stream' 
+'Slider Stream Stream Stream'
+'Slider " " "'
+'Msgb " " "'
+'Msgb " " "'
+'Msgb " " "'
+'Footer Footer Footer Footer';
+}
+*/
+.Slider:hover{
+    background: darkviolet;
+    transition:all.9s ease-in-out;
+}
+.Slider img{
+   border-radius: 200px;
+   border: solid white 3px;
+}
+.Slider img:hover{
+    border: solid #51d0de 3px;
+    transition: all.7s ease-in-out;
+}
+
+.Header{
+ grid-area: Header;
+   padding: 30px;
+}
+
+.Slider{
+   background-color:#51d0de;
+   overflow:none;
+   width:10px;
+   height:450px;
+ position: relative;
+    top: 65px;
+grid-area:Slider; 
+padding: 40px;
+}
+
+.Stream{
+     position: relative;
+    bottom: 999px;
+}
+.Stream i{
+
+}
+
+.Footer{
+grid-area:Footer; 
+
+}
+
+#Msgb{
+   display:grid;
+grid-area:Msgb;   
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+
+#one{
+position: absolute;
+width: 65%;
+bottom: 464px;
+left: 7px;
+height:50px;
+}
+
+#two{
+position: absolute;
+   bottom: 395px;
+   width: 65%;
+   left: 9px;
+   height: 50px;
+}
+
+#three{
+position: absolute;
+left: 9px;
+   width: 65%;
+    bottom: 327px;
+   height:50px;
+z-index: 3;
+}
+
+
+#four{
+position:absolute;
+left: 9px;
+   width: 65%;
+bottom: 260px;
+   height: 50px;
+   z-index: 3;
+}
+
+#five{
+position: absolute;
+left: 9px;
+width: 65%;
+bottom: 260px;
+ height: 50px;
+ z-index: 3;
+}
+
+#six{
+position: absolute;
+left: 9px;
+width: 65%;
+ bottom:  185px;
+ height: 50px;
+ z-index: 3;
+}
+
+#seven{
+position: absolute;
+left: 9px;
+   width: 65%;
+    bottom: 105px;
+    height: 50px;
+    z-index: 3;
+   }
+
+#eight{
+    position: absolute;
+left: 9px;
+   width: 65%;
+    bottom: 20px;
+   height: 50px;
+   z-index: 3;
+}
+
+.Stream .S1{
+position: relative;
+margin: 30px; 
+top: 80px;
+left: 182px;
+-webkit-box-shadow: -1px 1px 29px 3px darkviolet;
+-moz-box-shadow: -1px 1px 29px 3px darkviolet;
+box-shadow: -1px 1px 29px 3px darkviolet;
+height: 300px;
+width: 450px;
+}
+.S2{
+    position: relative;
+    bottom: 280px;
+    margin: 30px; 
+    left: 750px;
+    -webkit-box-shadow: -1px 1px 29px 3px darkviolet;
+    -moz-box-shadow: -1px 1px 29px 3px darkviolet;
+    box-shadow: -1px 1px 29px 3px darkviolet;
+    height: 300px;
+    width: 450px;
+}
+
+ .S3{
+position: relative;
+  top: 200px;
+     width: 450px;
+    height: 300px;
+    right:  90px;
+    -webkit-box-shadow: -1px 1px 29px 3px darkviolet;
+-moz-box-shadow: -1px 1px 29px 3px darkviolet;
+box-shadow: -1px 1px 29px 3px darkviolet;
+}
+
+.S4{
+ position: relative;
+ width: 450px;
+ height: 300px;
+    bottom: 103px;
+    right: 150px;
+    -webkit-box-shadow: -1px 1px 29px 3px darkviolet;
+    -moz-box-shadow: -1px 1px 29px 3px darkviolet;
+    box-shadow: -1px 1px 29px 3px darkviolet;
+}
+
+
+
+
+.Footer{
+   display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   position: relative;
+   width: 100%;
+   right: 9px;
+    text-align: center;
+   text-decoration: none;
+   color:white;
+   padding: 130px;
+   background-color:darkviolet;
+   
+}
+
+
+.Footer a{
+ text-decoration: none;  
+ color:white;
+ font-size: 30px;
+ 
+}
+
+.Footer a:hover{
+ color:#51d0de;
+ transition:background.9s ease-in-out;
+}
+#cha{
+    position: relative;
+    right: 140px;
+    top: 5px;
+}
+#fri{
+    position: relative;
+    right: 98px;
+    top: 5px;
+
+}
+#sub{
+    position: relative;
+    top: 5px;
+
+}
+#ic1{
+    position: relative;
+    left: 85px;
+    font-size: 60px;
+}
+#ic2{
+    position: relative;
+    left: 110px;
+    font-size: 60px;
+}
+#ic3{
+    position: relative;
+    left: 150px;
+    font-size: 60px;
+}
+.Footer i:hover{
+    color:#51d0de;
+    transition: color.9s ease-in-out;
+}
+
+strong{
+opacity: 0.7;
+color:darkviolet;
+background:#FFF;
+font-size: 70px;
+text-shadow: 10px 13px 13px #51d0de, 0px 1px 1px #51d0de, 2px 1px 1px #51d0de, 1px 2px 1px #51d0de, 3px 2px 1px #51d0de, 2px 3px 1px #51d0de, 4px 3px 1px #51d0de, 3px 4px 1px #51d0de, 15px 20px 17px #fc5226 , 4px 5px 1px #fc5226 , 6px 5px 1px #fc5226 , 5px 6px 1px #fc5226 , 7px 6px 1px #fc5226 ;
+position: absolute;
+right: 400px;
+top: 150px;
+}
+
+
+#Msgb i{
+   position: absolute;
+    width:30px;
+   height:50px;
+}
+
+#Snap{
+   position:relative;
+   left:75px;
+font-size: 18px;
+}
+
+#Inst{
+   position: relative;
+   left:60px;
+font-size: 20px;
+   
+}
+
+#Twitt{
+   position: relative;
+   left:50px;
+font-size: 12px;
+   
+}
+
+#Film{
+ font-size: 7px;  
+   
+}
+
+#Chart{
+ font-size: 7px;  
+ 
+   
+}
+
+#Share{
+   font-size: 7px;  
+}
+
+#Patreon{
+ font-size: 7px;  
+   
+}
+
+#Msgb i{
+   padding: 20px;
+}
+
+#Msgb{
+   display:inline-block;
+   position: relative;
+   top: 930px;
+   text-align:  center;
+background-color:#e0474c;
+width: 110px;
+height: 650px;
+}
+
+#Msgb:hover{
+background:darkviolet;
+transition:background.9s ease-in-out; 
+}
+
+#Msgb{
+color:white;
+}
+
+#Msgb a{
+   font-size :20px;
+   text-align: center;
+   position: relative;
+   right: 30px;
+text-decoration: none;
+color:white; 
+}
+
+#Msgb span{
+position:relative;
+font-size: 10px;
+top:300px;
+}
+
+#Pro{
+position: relative;
+top: 70px;
+font-size:18px;
+}
+
+#Mess{
+position: relative;
+top: 120px;
+font-size:18px;
+}
+
+
+
+#Alert{
+position: relative;
+top: 170px;
+font-size:18px;
+}
+
+
+#Share{
+position: relative;
+font-size: 18px;
+top:35px;
+}
+
+#Pri{
+position: relative;
+   top: 217px;
+   font-size:18px;
+}
+
+
+#Con{
+position: relative;
+top: 270px;
+font-size:18px;
+}
+
+#pat{
+position: relative;
+   top: 380px;
+  font-size:18px;
+}
+#Dash{
+position: relative;
+top: 320px;
+font-size:18px;
+right: 125px;
+
+
+}
+
+#Pro:hover{
+   transition:color.8s ease-in-out;
+   color:#51d0de;
+}
+
+#Dash:hover{
+transition:color.8s ease-in-out;
+color:#51d0de;
+   
+}
+
+#pat:hover{
+transition:color.8s ease-in-out;
+color:#51d0de;   
+}
+
+#Con:hover{
+ transition:color.8s ease-in-out;
+ color:#51d0de;  
+}
+
+#Alert:hover{
+ transition:color.8s ease-in-out;
+ color:#51d0de;  
+}
+
+#Pri:hover{
+ transition:color.8s ease-in-out;
+ color:#51d0de;  
+}
+
+#Share:hover{
+transition:color.8s ease-in-out;
+color:#51d0de;   
+}
+
+#Mess:hover{
+ transition:color.8s ease-in-out;
+ color:#51d0de;  
+}
+
+.Header a:hover{
+transition:color.8s ease-in-out;
+color:#51d0de;
+}
+
+#Twitt:hover{
+transition:color.8s ease-in-out;
+color:#51d0de;
+   
+}
+
+#Inst:hover{
+transition:color.8s ease-in-out;
+color: #51d0de;   
+   
+}
+
+#Snap:hover{
+  transition:color.8s ease-in-out;
+  color:#51d0de;
+}
+
+#user-img{
+    overflow: none;
+   position:relative;
+   top: 50px;
+   right: 299px;
+   border-radius: 200px; 
+   height: 50px;
+}
+#User1{
+position: relative;
+top: 197px;
+color: #51d0de;
+font-size: 18px;
+z-index: 2;
+right: 300px;
+}
+#Title1{
+position: relative;
+top: 215px;
+color:#e0474c;
+right: 430px;
+
+}
+#Catlog1{
+   position: relative;
+   color:#e0474c;
+   top: 215px;
+   right: 429px;
+}
+#user-img1{
+   position: relative;
+   bottom: 616px;
+   left: 782px;
+    border-radius: 300px;
+    height: 50px;
+    width: 4%;
+}
+#user-imgX{
+    position: relative;
+    bottom: 106px;
+    right: 605px;
+    border-radius: 300px;
+    height: 50px;
+    width: 4%;
+   }
+   
+   #user-imgM{
+      z-index: 2;
+      position: relative;
+      left: 280px;
+      top: 200px;
+      border-radius: 300px;
+      width: 4%;
+      height: 50px;
+   }
+#User{
+position: relative;
+font-size: 18px;
+color:#51d0de;
+font-weight: 300;
+right: 299px;
+top: 47px;
+ 
+
+}
+
+#Title {
+position: relative;
+right: 435px;
+font-size:16px;
+color:#e0474c;
+font-weight: 500;
+top: 64px;
+}
+
+#Catlog{
+position: relative;
+right: 435px;
+font-size:16px;
+color:#e0474c;
+font-weight:500;
+top: 64px;
+}
+
+#user-img2{
+   position: relative;
+   bottom: 830px;
+   left: 590px;
+border-radius:200px; 
+height: 50px;
+}
+
+#User2{
+ position: relative;
+ font-size: 16px;
+ color:#51d0de;
+ font-weight: 500;
+ left: 780px;
+ bottom: 617px;  
+}
+
+#Title2{
+position:relative;
+font-size:16px;
+color:#e0474c;
+font-weight:500;
+left: 656px;
+bottom: 600px 
+}
+
+#Catlog2{
+position: relative;
+font-size:16px;
+color:#e0474c;
+font-weight: 500;
+
+left: 659px;
+bottom: 600px;   
+}
+#User4{
+position: absolute;
+font-size:16px;
+color:#51d0de;
+font-weight:500;
+left: 850px;
+top: 907px;
+}
+
+#Title4{
+position: absolute;
+font-size:16px;
+color:#e0474c;
+font-weight:500;
+left: 790px;
+top: 922px;
+   
+}
+
+#Catlog4{
+position: absolute;
+font-size:16px;
+color:#e0474c;
+font-weight: 500;
+ left: 940px;
+ margin-left: 45px;
+top: 922px;
+   
+}
+
+#user-img4{
+position:absolute;
+bottom:-65px;
+left:231px;
+border-radius:200px;
+height:50px;
+}
+#story{
+   position: absolute;
+   top: 900px;
+   margin-top: 670px;
+   right: 550px;
+}
+#story{
+   grid-template-areas: 
+   "blog blog blog blog"
+   "blog blog blog blog"
+   "blog blob blog blog";
+}
+.blog{
+   grid-area: blog;
+   padding: 50px;
+}
+.B-Post{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+ position: relative;
+   bottom: 610px;
+   left: 400px;
+}
+p{
+  position: relative;
+   left: 100px;
+   text-align: center;
+   display: block;
+   font: 12px;
+
+}

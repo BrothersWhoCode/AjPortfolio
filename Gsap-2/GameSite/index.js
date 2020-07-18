@@ -1,0 +1,1 @@
+gsap.to("#Img1", { duration: 2.5, ease: "back.inOut(1.7)", x: "400%" });

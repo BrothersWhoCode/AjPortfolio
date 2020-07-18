@@ -1,0 +1,195 @@
+body {
+  background: rgb(96,108,136);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(96,108,136,1) 0%, rgba(63,76,107,1) 60%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 60%);
+background: radial-gradient(ellipse at center,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 60%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 );
+margin: 0;
+}
+  
+.Nav {
+  position: relative;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: darkgrey;
+bottom: 20px;
+
+  border: black solid;
+  background-color: black;
+  /* background-repeat: no-repeat;
+  background-image: url("250-2506481_gaming-keyboard-png-transparent-png.png"); */
+}
+
+.img{
+  position: relative;
+  width:20%;
+  top: 200px;
+  left:1%;
+}
+
+.Pro{
+  position: relative;
+  left: 500px;
+}
+
+
+#Game{
+  position: relative;
+  top: 790px;
+  left: 600px;
+}
+
+
+
+footer{
+  display: grid;
+  position: relative;
+  top: 900px;
+  text-decoration: none;
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  color: darkgrey;
+  border: black solid;
+  background-color: black;
+}
+
+
+
+.pro{
+  opacity: 0.0; 
+}
+/* Buttions */
+#play{
+  position: relative;
+  left: 330px;
+  color:white;
+  text-decoration: none;
+  top: 230px;
+  font-size: 23px;
+  z-index: 3;
+}
+#play:hover{
+color: red;
+transition: .9s ease-in-out;
+}
+/* ///////////// */
+
+/* Text */
+#A{
+  position: relative;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  top: 190px;
+}
+ /* /////////////// */
+  
+
+/* Links */
+#Story{
+  font-size: 33px;
+  font-style: italic;
+ font-weight: lighter;
+ position: relative;
+top: 13px;
+color: darkgrey;
+text-decoration: none;
+}
+/* //////////////////////////// */
+
+/* WebSites */
+#GameSite{
+  position: relative;
+    bottom: 400px;
+    top: -359px;
+    left: 200px;
+    font-size: 43px;
+    color: red;
+    text-decoration: none;
+}
+
+#Com{
+  font-size: 50px;
+  position: relative;
+  left: -290px;
+  top: 399px;
+  color: white;
+  text-decoration: none;
+}
+/* /////////////////////////// */
+
+/* Img */
+.GameSiteI{
+  position: relative;
+    width: 25%;
+    left: 500px;
+    top: 309px;
+}
+
+.E-Commerce{
+  position: relative;
+  top: 800px;
+    width: 205px;
+    right: 90px;
+}
+/* //////////////////////////////// */
+
+#Md{
+  font-size: 30px;
+  position: relative;
+  color: antiquewhite;
+  text-decoration: none;
+top: 860px;
+left: -550px;
+
+}
+
+#Contact{
+  font-size: 33px;
+  font-style: italic;
+ font-weight: lighter;
+ position: relative;
+top: 13px;
+color: darkgrey;
+text-decoration: none;
+}
+
+#SocialMedia{
+  font-size: 33px;
+  font-style: italic;
+ font-weight: lighter;
+ position: relative;
+top: 13px;
+color: darkgrey;
+text-decoration: none;
+}
+
+.Med{
+  position: relative;
+    top: 850px;
+    width: 405px;
+    left: 500px;
+}
+
+#Blog{
+  font-size: 33px;
+    font-style: italic;
+    font-weight: lighter;
+    position: relative;
+    top: 13px;
+    color: darkgrey;
+    text-decoration: none;
+}
+
+#Brother{
+  font-size: 33px;
+    font-style: italic;
+    font-weight: lighter;
+    position: relative;
+    top: 13px;
+    right: 100px;
+    bottom: -30px;
+    color: darkgrey;
+    text-decoration: none;
+}

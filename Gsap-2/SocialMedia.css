@@ -1,0 +1,44 @@
+html{
+    background-color: blue;
+}
+
+.Nav {
+    position: relative;
+    display: grid;
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: darkgrey;
+  bottom: 10px;
+  width: 1362px;
+  right: 10px;
+  text-decoration: none;
+  
+    border: black solid;
+    background-color: black;
+  }
+
+  #Ig{
+  text-decoration: none;
+color: cornsilk;
+  }
+
+  #Twitter{
+ text-decoration: none;
+ color: cornsilk;
+
+  }
+
+  #GitHub{
+text-decoration: none;
+color: cornsilk;
+
+  }
+
+  #FaceBook{
+    text-decoration: none;
+    color: cornsilk;
+
+
+  }
+  
+  

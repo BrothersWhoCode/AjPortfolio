@@ -1,0 +1,273 @@
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    background: black;
+    padding: 20px;
+}
+img{
+    height: 200px;
+    width: 200px ;
+} 
+header  a{
+text-decoration: none;
+list-style: none;
+color: white;
+font-size: 24px;
+font-weight: 100;
+
+    
+}
+strong{
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+}
+#nav1{
+    position: relative;
+   
+    
+
+}
+#nav2{
+    position: relative;
+    
+
+}
+#nav3{
+    position: relative;
+
+}
+.gear-description{
+    position: relative;
+    padding: 30px;
+}
+.description-boxes{
+    position: relative;
+}
+.box1{
+    position: relative;
+    
+}
+#item1{
+    position: relative;
+    left: 100px;
+    color: black;
+    font-size: 50px;
+}
+#HD-headset{
+    position: relative;
+    left: 40px;
+}
+
+.box2{
+    position: relative;
+}
+#item2{
+    position: relative;
+    left: 100px;
+    color: black;
+    font-size: 50px;
+}
+#Gaming-pc{
+    position: relative;
+    left: 40px;
+}
+
+.box3{
+    position: relative;
+}
+#item3{
+    position: relative;
+    left: 100px;
+    color: black;
+    font-size: 50px;
+}
+#VR-headset{
+    position: relative;
+    left: 40px;
+}
+.box4{
+    position: relative;
+}
+#item4{
+    position: relative;
+    left: 100px;
+    color: black;
+    font-size: 50px;
+}
+#Gaming-Mouse{
+    position: relative;
+    left: 40px;
+}
+.box5{
+    position: relative;
+}
+#item5{
+    position: relative;
+    left: 100px;
+    color: black;
+    font-size: 50px;
+}
+#Gaming-Head2{
+    position: relative;
+    left: 40px ;
+}
+.box6{
+    position: relative;
+}
+#item6{
+    position: relative;
+    left: 100px;
+    color: black;
+    font-size: 50px;
+}
+#PS4-Gaming-Controller{
+    position: relative;
+    left: 40px;
+}
+.box7{
+    position: relative;
+}
+#item7{
+    position: relative;
+    left: 100px;
+    color: black;
+    font-size: 50px;
+}
+#Gaming-Speaker{
+    position: relative;
+    left: 40px;
+}
+.box8{
+    position: relative;
+}
+#item8{
+    position: relative;
+    left: 100px;
+    color: black;
+font-size: 50px;
+}
+#Gaming-Racing-Wheel{
+    position: relative;
+    left: 40px;
+}
+.box9{
+    position: relative;
+}
+#item9{
+position: relative;
+left: 100px;
+color: black;
+font-size: 50px;
+}
+#Chair{
+    position: relative;
+    left: 40px;
+}
+
+.box10{
+    position: relative;
+
+}
+#item10{
+    position: relative;
+    left: 100px;
+}
+#Mic{
+    position: relative;
+    left: 40px;
+}
+span#item10{
+    position: relative;
+    color: black;
+    font-size: 50px;
+}
+#put1{
+    position: relative;
+    left: 170px;
+    
+
+}
+#b1{
+    position: relative;
+    left: 170px;
+
+}
+#put2{
+    position: relative;
+    left: 150px;
+
+
+}
+#b2{
+position: relative;
+left: 155px;
+
+}
+#put3{
+position: relative;
+left: 235px;
+}
+#b3{
+position: relative;
+left: 240px;
+
+}
+#put4{
+position: relative;
+left: 190px ;
+}
+#b4{
+position: relative;
+left: 200px;
+}
+#put5{
+position: relative;
+left: 230px;
+
+}
+#b5{
+position: relative;
+left: 240px;
+}
+#put6{
+position: relative;
+left: 200px;
+}
+#b6{
+position: relative;
+left: 210px;
+}
+#put7{
+position: relative;
+left: 190px;
+}
+#b7{
+position: relative;
+left: 200px;
+}
+#put8{
+position: relative;
+left: 190px;
+}
+#b8{
+position: relative;
+left: 195px;
+}
+#put9{
+position: relative;
+left: 190px;
+}
+#b9{
+position: relative;
+left: 195px;
+}
+#put10{
+position: relative;
+left: 240px;
+}
+#b10{
+position: relative;
+left: 245px;
+}
